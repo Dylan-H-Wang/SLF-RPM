@@ -1,0 +1,10 @@
+torch
+torchvision
+matplotlib
+opencv-python
+scikit-image
+tqdm
+wandb
+face_alignment
+pyedflib
+healpy
