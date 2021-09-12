@@ -1,0 +1,21 @@
+name: slf-rpm
+channels:
+  - defaults
+  - conda-forge
+  - 1adrianb
+  - pytorch
+dependencies:
+  - python=3.8.5
+  - opencv
+  - face_alignment
+  - pyedflib
+  - healpy
+  - matplotlib
+  - scikit-image
+  - wandb
+  - tqdm
+  - torchaudio
+  - torchvision
+  - pytorch
+  - cudatoolkit=10.2  
+prefix: ./envs/slf-rpm
