@@ -2,7 +2,9 @@
 
 This repository hosts the PyTorch implementation of SLF-RPM.
 
-The paper is available at: [Arxiv](https://arxiv.org/abs/2107.07695).
+The paper is accepted by AAAI-22 and is available at: [Arxiv](https://arxiv.org/abs/2107.07695).
+
+![overview](./overview.png)
 
 ## Highlights
 
@@ -50,13 +52,18 @@ bash ./run.sh
 
 *Note:* make sure you have setup `dataset_dir` path correctly.
 
+We also provide a demo program for showcase. Currently, it only supports single video input. You can run:
+```python
+python demo.py -p /pretrained/model/path -i source.mov -o target.mov
+```
+
 ## Identified Issues
 
 1. If you meet `[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)` in your machine, please check this [PyTorch issue](https://github.com/pytorch/pytorch/issues/57273).
 
 ## Models and Results
 
-For your convinience, we provide trained model weights and results on each dataset.
+For your convinience, we provide trained model weights (before linear probing) and results on each dataset (after linear probing).
 
 |   **Dataset**  | **Model** |  **MAE**  |  **RMSE** |   **SD**  |   **R**  |
 |:----------:|:-----:|:-----:|:-----:|:-----:|:----:|
