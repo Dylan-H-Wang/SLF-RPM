@@ -77,7 +77,7 @@ If you find this repo useful in your work or research, please cite:
 
 ```
 @article{Wang2021SelfSupervisedLF,
-  title={Self-Supervised Learning Framework for Remote Heart Rate Estimation Using Spatiotemporal Augmentation},
+  title={Self-supervised Representation Learning Framework for Remote PhysiologicalMeasurement using Spatiotemporal Augmentation Loss },
   author={Hao Wang and Euijoon Ahn and Jinman Kim},
   journal={ArXiv},
   year={2021},
