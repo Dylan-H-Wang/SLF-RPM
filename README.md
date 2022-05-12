@@ -52,11 +52,6 @@ bash ./run.sh
 
 *Note:* make sure you have setup `dataset_dir` path correctly.
 
-We also provide a demo program for showcase. Currently, it only supports single video input. You can run:
-```python
-python demo.py -p /pretrained/model/path -i source.mov -o target.mov
-```
-
 ## Identified Issues
 
 1. If you meet `[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)` in your machine, please check this [PyTorch issue](https://github.com/pytorch/pytorch/issues/57273).
@@ -77,7 +72,7 @@ If you find this repo useful in your work or research, please cite:
 
 ```
 @article{Wang2021SelfSupervisedLF,
-  title={Self-supervised Representation Learning Framework for Remote PhysiologicalMeasurement using Spatiotemporal Augmentation Loss },
+  title={Self-supervised Representation Learning Framework for Remote Physiological Measurement Using Spatiotemporal Augmentation Loss},
   author={Hao Wang and Euijoon Ahn and Jinman Kim},
   journal={ArXiv},
   year={2021},
